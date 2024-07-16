@@ -21,6 +21,7 @@ from typing import List
 import rcl_interfaces.msg
 import rclpy
 import smbus2  # type: ignore # pylint: disable=import-error
+from hippo_msgs.msg import ActuatorControls, Float64Stamped
 from rcl_interfaces.msg import (
     FloatingPointRange,
     IntegerRange,
@@ -31,7 +32,6 @@ from rclpy.node import Node
 from rclpy.parameter import Parameter
 
 from esc import afro_esc
-from hippo_msgs.msg import ActuatorControls, Float64Stamped
 
 
 class ESC(Node):

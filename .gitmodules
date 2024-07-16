@@ -1,0 +1,3 @@
+[submodule "src/esc_serial"]
+	path = src/esc_serial
+	url = https://github.com/HippoCampusRobotics/esc_serial.git
