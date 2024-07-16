@@ -2,8 +2,8 @@
 Changelog for package esc
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.0 (2024-07-16)
+------------------
 * moved esc to separate repo
 * make logging less overly verbose
 * streamlined esc launch file
