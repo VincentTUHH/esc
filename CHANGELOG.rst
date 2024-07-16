@@ -2,8 +2,8 @@
 Changelog for package esc
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2024-07-16)
+------------------
 * removed legacy python version of afro esc commander
 * Contributors: Thies Lennart Alff
 
