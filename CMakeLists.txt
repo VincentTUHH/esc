@@ -27,10 +27,8 @@ add_compile_options(${CXX_FLAGS})
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(ament_cmake REQUIRED)
-find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
-find_package(rclpy REQUIRED)
 find_package(std_srvs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
@@ -115,17 +113,8 @@ install(TARGETS ${component_name}
   RUNTIME DESTINATION bin
 )
 
-# Install Python modules
-ament_python_install_package(${PROJECT_NAME})
-
 add_executable(esc_commander_node src/esc_commander_node.cpp src/afro_esc.cpp)
 ament_target_dependencies(esc_commander_node rclcpp hippo_msgs hippo_control_msgs std_srvs sensor_msgs)
-
-# Install Python executables
-install(PROGRAMS
-  nodes/esc_commander
-  DESTINATION lib/${PROJECT_NAME}
-)
 
 ################################################################################
 # install shared resources
