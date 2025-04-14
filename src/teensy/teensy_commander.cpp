@@ -80,7 +80,7 @@ void TeensyCommander::ServeArming(
       armed_ = _request->data;
       RCLCPP_INFO(get_logger(), "Arming the thrusters.");
       _response->message = "Armed";
-      _response->success = false;
+      _response->success = true;
       SetThrottle(0.0);
     }
   } else {
