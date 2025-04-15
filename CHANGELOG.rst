@@ -2,6 +2,14 @@
 Changelog for package esc
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#1 <https://github.com/HippoCampusRobotics/esc/issues/1>`_ from VincentTUHH/main
+  fixed bug of success status of arming service
+* fixed bug of success status of arming service
+* added README
+* Contributors: Nathalie Bauschmann, Thies Lennart Alff, VincentTUHH
+
 1.1.0 (2024-07-16)
 ------------------
 * removed legacy python version of afro esc commander
