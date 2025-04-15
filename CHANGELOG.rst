@@ -2,8 +2,8 @@
 Changelog for package esc
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.1 (2025-04-15)
+------------------
 * Merge pull request `#1 <https://github.com/HippoCampusRobotics/esc/issues/1>`_ from VincentTUHH/main
   fixed bug of success status of arming service
 * fixed bug of success status of arming service
